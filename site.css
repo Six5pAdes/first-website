@@ -1,0 +1,12 @@
+.h1 {
+    font-size: large;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+label {
+    font-size: small;
+    color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
