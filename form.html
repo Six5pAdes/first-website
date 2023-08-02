@@ -4,45 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About iKonics</title>
     <link rel="stylesheet" href="site.css">
 </head>
 
 <body>
     <nav>
         <a href="./home.html">Home</a>
-        <a href="./form.html">Contact</a>
-        <a href="./links.html">Learn More</a>
-        <a href="./images.html">Images</a>
+        <a href="./form.html">Fan's Page</a>
+        <a href="./links.html">Songs</a>
+        <a href="./images.html">Gallery</a>
     </nav>
 
-    <form action="form-building-url" method="post">
-        <fieldset>
-            <div>
-                <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
-            </div>
+    <div class="form">
+        <form action="form-building-url" method="post">
+            <fieldset>
+                <legend>Are you iKonic?</legend>
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
 
-            <div>
-                <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
-            </div>
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
 
-            <div>
-                <input type="checkbox" id="signup" name="submission" value="signup">
-                <label for="signup">Sign up for newsletter</label>
-            </div>
+                <div>
+                    <h2>Have you heard of iKon before?</h2>
+                    <input type="checkbox" id="answer" name="no" value="signup">
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" id="answer" name="no" value="no">
+                    <label for="no">No</label>
+                </div>
 
-            <div>
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
-            </div>
+                <div>
+                    <h2>If yes, please explain<br>
+                        what you like about them.<br>
+                    </h2>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
 
-            <div>
-                <button type="submit">Submit</button>
-            </div>
-        </fieldset>
-    </form>
+                <div>
+                    <h2>Get ready?</h2>
+                </div>
+
+                <div>
+                    <button type="submit">Showtime!</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
 </body>
 
 </html>
