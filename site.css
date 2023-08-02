@@ -1,3 +1,7 @@
+body {
+    background-color: darkred;
+}
+
 .h1 {
     font-size: large;
     color: black;
@@ -7,6 +11,6 @@
 h2,
 label {
     font-size: small;
-    color: silver;
+    color: rgb(220, 220, 220);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
